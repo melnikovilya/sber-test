@@ -1,0 +1,16 @@
+@import '_var.scss';
+@import '_glob.scss';
+
+@import '_1440.scss';
+
+@media (max-width: 1440px) {
+  .container {
+    width: auto;
+    margin: 0 $margin1440;
+  }
+}
+
+@media (max-width: 900px) {
+  @import '_375.scss';
+}
+
